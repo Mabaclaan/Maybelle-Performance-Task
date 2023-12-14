@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://clwpo83yorvtm" path="res://enemy.png" id="1_0baid"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_gbuul"]
-radius = 56.5685
+radius = 61.0328
 
 [node name="Enemy" type="RigidBody2D"]
 gravity_scale = 2.66454e-15
@@ -14,5 +14,5 @@ scale = Vector2(0.33125, 0.31)
 texture = ExtResource("1_0baid")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(547, 196)
+position = Vector2(547, 199)
 shape = SubResource("CircleShape2D_gbuul")
